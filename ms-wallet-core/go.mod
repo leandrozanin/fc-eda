@@ -1,4 +1,4 @@
-module github.com/leandrozanin/fc-ms-wallet-core
+module github.com/leandrozanin/fc-eda/fc-ms-wallet-core
 
 go 1.21.6
 

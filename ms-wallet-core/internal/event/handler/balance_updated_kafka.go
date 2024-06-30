@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/events"
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/kafka"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/events"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/kafka"
 )
 
 type UpdateBalanceKafkaHandler struct {

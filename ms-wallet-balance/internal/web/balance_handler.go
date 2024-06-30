@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	find_balance "github.com/leandrozanin/fc-ms-wallet-balance/internal/usecases/find_balance"
+	find_balance "github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/usecases/find_balance"
 )
 
 type WebBalanceHandler struct {

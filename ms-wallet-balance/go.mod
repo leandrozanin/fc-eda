@@ -1,4 +1,4 @@
-module github.com/leandrozanin/fc-ms-wallet-balance
+module github.com/leandrozanin/fc-eda/ms-wallet-balance
 
 go 1.21.6
 

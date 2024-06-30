@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/entity"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/usecases/mocks"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/entity"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/usecases/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

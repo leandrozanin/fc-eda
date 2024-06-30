@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/entity"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/gateway"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/entity"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/gateway"
 )
 
 type ConsumerDTO struct {

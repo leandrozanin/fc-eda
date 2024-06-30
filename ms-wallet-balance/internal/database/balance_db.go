@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/entity"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/entity"
 )
 
 type BalanceDB struct {

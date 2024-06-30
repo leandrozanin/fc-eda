@@ -7,17 +7,17 @@ import (
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/database"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/event"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/event/handler"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/create_account"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/create_client"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/create_transaction"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/web"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/web/webserver"
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/events"
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/kafka"
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/uow"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/database"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/event"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/event/handler"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/create_account"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/create_client"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/create_transaction"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/web"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/web/webserver"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/events"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/kafka"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/uow"
 )
 
 func main() {

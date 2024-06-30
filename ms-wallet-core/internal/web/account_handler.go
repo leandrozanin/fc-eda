@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/create_account"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/create_account"
 )
 
 type WebAccountHandler struct {

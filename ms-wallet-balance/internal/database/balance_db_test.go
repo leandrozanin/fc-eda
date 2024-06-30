@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/entity"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/entity"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/suite"
 )

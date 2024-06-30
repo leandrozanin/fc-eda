@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/entity"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/event"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/mocks"
-	"github.com/leandrozanin/fc-ms-wallet-core/pkg/events"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/entity"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/event"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/mocks"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/pkg/events"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

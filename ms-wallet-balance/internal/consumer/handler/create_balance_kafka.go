@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/usecases/create_balance"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/usecases/create_balance"
 )
 
 type CreateBalanceKafkaHandler struct {

@@ -6,13 +6,13 @@ import (
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/consumer/handler"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/database"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/usecases/create_balance"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/usecases/find_balance"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/web"
-	"github.com/leandrozanin/fc-ms-wallet-balance/internal/web/webserver"
-	"github.com/leandrozanin/fc-ms-wallet-balance/pkg/kafka"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/consumer/handler"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/database"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/usecases/create_balance"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/usecases/find_balance"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/web"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/internal/web/webserver"
+	"github.com/leandrozanin/fc-eda/ms-wallet-balance/pkg/kafka"
 )
 
 func main() {

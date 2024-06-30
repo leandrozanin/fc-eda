@@ -3,8 +3,8 @@ package create_client
 import (
 	"time"
 
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/entity"
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/gateway"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/entity"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/gateway"
 )
 
 type CreateClientInputDTO struct {

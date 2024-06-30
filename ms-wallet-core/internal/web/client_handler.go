@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/leandrozanin/fc-ms-wallet-core/internal/usecases/create_client"
+	"github.com/leandrozanin/fc-eda/fc-ms-wallet-core/internal/usecases/create_client"
 )
 
 type WebClientHandler struct {
